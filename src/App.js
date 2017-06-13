@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Layout from "./components/Layout.js";
-
+import uuid from 'uuid';
+import "./App.css";
 
 class App extends Component {
 
     render() {
         return (
-          <div class="row">
-            <Layout />
+          <div className="row">
+          <Layout />
           </div>
         );
     }
