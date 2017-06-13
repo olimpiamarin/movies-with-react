@@ -1,3 +1,4 @@
+import uuid from 'uuid';
 const movies = [
   {
     id: uuid.v4(),

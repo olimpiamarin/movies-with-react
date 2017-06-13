@@ -1,23 +1,68 @@
-.row {
-  margin: 2cm;
-  line-height: 1.5;
-  
-}
-
 .header {
   font-family: verdana;
   font-style: normal;
-  padding: 5px;
+  padding: 50px 0 80px;
   text-align: center;
-  background-color: lightcyan;
 }
 
 .headerH1 {
   font-size: 30px;
-  color: navy;
+  padding-bottom: 50px;
 }
 
 .headerH2 {
   font-size: 25px;
-  color: indigo;
+}
+
+.movie {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.search{
+  background-color: #f4f3ff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.search-field  {
+  padding-bottom: 10px;
+}
+
+.search-field h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.search-field input {
+  border: 1px solid;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+.films-list{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.film{
+ border-radius: 5px;
+ width: 395px;
+ box-sizing: border-box;
+ margin-top: 13px;
+ width: 49%;
+
+}
+
+.title {
+ background-color: #f4f3ff;
+ padding: 10px;
+}
+
+.year {
+ padding: 10px;
 }
