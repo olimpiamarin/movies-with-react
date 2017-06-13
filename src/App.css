@@ -1,0 +1,23 @@
+.row {
+  margin: 2cm;
+  line-height: 1.5;
+  
+}
+
+.header {
+  font-family: verdana;
+  font-style: normal;
+  padding: 5px;
+  text-align: center;
+  background-color: lightcyan;
+}
+
+.headerH1 {
+  font-size: 30px;
+  color: navy;
+}
+
+.headerH2 {
+  font-size: 25px;
+  color: indigo;
+}

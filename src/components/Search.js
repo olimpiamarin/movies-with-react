@@ -1,12 +1,18 @@
 import React from 'react';
 
 export default class Search extends React.Component {
+ 
+
   render(){
     return (
       <div>
-        <form>
-          <input type="text" placeholder="Search..." />
-        </form>
+        <input type="text"
+            placeholder="Search..."
+            placeholder="Search movies"
+            value={this.state.search}
+            //onChange={this.search.bind(this)}
+            class="input"
+        />
       </div>
     );
   }

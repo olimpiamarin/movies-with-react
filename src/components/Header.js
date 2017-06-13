@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-export default class Header extends React.Component {
+ class Header extends Component {
   render() {
     return (
-      <div>
-        <h1>Movies with React</h1>
-        <h2>List of Movies</h2>
+      <div className="header">
+        <h1 className="headerH1" >Movies with React</h1>
+        <br />
+        <br />
+        <h2 className="headerH2">List of Movies</h2>
       </div>
     );
   }
 }
+
+export default Header;

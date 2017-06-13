@@ -6,13 +6,13 @@ export default class SearchMovie extends React.Component {
   constructor(){
     super();
     this.state = {
-      Search: '',
+      search: '',
     };
   }
   render(){
     return (
-      <div>
-        <h2>Looking for a specific movie?</h2>
+      <div class="search">
+        <h2 class="header">Looking for a specific movie?</h2>
         <Search />
       </div>
     );
